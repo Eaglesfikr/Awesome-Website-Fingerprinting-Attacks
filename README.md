@@ -8,6 +8,8 @@ A curated list of resources for website fingerprinting attacks（WF）.
 
 Please star or watch this repository to keep tracking the latest updates! Contributions are welcome!
 
+---
+
 ## **Outlines of this repo:**
 
 - [News](#News)
@@ -19,13 +21,13 @@ Please star or watch this repository to keep tracking the latest updates! Contri
 - [Tools](#Tools)
 - [Datasets](#Datasets)
 
-
+---
 
 ## :boom::boom:News
 
 **Enhancements to Network Fingerprint Attacks Against Traffic Drift**. Published in the 2026 **NDSS** Conference Proceedings\**.
 
-
+---
 
 ## what-is-the-website-fingerprinting-attacks
 
@@ -35,7 +37,7 @@ The scenario for website fingerprinting is generally within the TOR anonymous ne
 
 Website fingerprinting can be classified into robustness, multi-tab, Cross-domain few-shot and early-stage based on its research questions.
 
-
+---
 
 ## Classic
 
@@ -52,9 +54,8 @@ Website fingerprinting can be classified into robustness, multi-tab, Cross-domai
 - [CCS 2018] Deep Fingerprinting Undermining Website Fingerprinting [[paper]](https://dl.acm.org/doi/10.1145/3243734.3243768) [[code](https://github.com/deep-fingerprinting/df)]
 
 - [NDSS 2018] Automated Website Fingerprinting Through Deep Learning [[paper](https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_03A-1_Rimmer_paper.pdf)] [[code](https://github.com/DistriNet/DLWF)]
-
   
-
+---
   
 ## Multi-tab
 
@@ -68,7 +69,7 @@ Website fingerprinting can be classified into robustness, multi-tab, Cross-domai
 
 - [ACSAC 2019] Block Attention Profiling Model for Multi-tab Website Fingerprinting Attacks on Tor [[paper](https://dl.acm.org/doi/10.1145/3485832.3485891)] [[code]()]
 
-  
+---  
 
 ## Cross-domain-few-shot
 
@@ -84,7 +85,7 @@ Website fingerprinting can be classified into robustness, multi-tab, Cross-domai
 - [CODASPY 2021] Adaptive Fingerprinting: Website Fingerprinting over Few Encrypted Traffic [[paper](https://dl.acm.org/doi/epdf/10.1145/3422337.3447835)] [[code](https://github.com/SmartHomePrivacyProject/AdaptiveFingerprinting)]
 - [CCS 2019] Triplet fingerprinting: More practical and portable website fingerprinting with n shot learning [[paper](https://dl.acm.org/doi/10.1145/3319535.3354217)] [[code](https://github.com/triplet-fingerprinting/tf?utm_source=chatgpt.com)]
 
-
+---
 
 
 ## Early-stage
@@ -93,7 +94,7 @@ Website fingerprinting can be classified into robustness, multi-tab, Cross-domai
 
 - [CCS 2024] Robust and Reliable Early-Stage Website Fingerprinting Attacks [[paper](https://arxiv.org/abs/2407.00918?utm_source=chatgpt.com)] [[code](https://github.com/Xinhao-Deng/Website-Fingerprinting-Library?utm_source=chatgpt.com)]
 
-  
+---  
 
 
 ## Tools
@@ -101,7 +102,7 @@ Website fingerprinting can be classified into robustness, multi-tab, Cross-domai
 - [TOR](https://www.torproject.org.cn/en/): A browser isolates each website you visit so third-party trackers and ads can't follow you.
 - [Website-Fingerprinting-Library](https://github.com/Xinhao-Deng/Website-Fingerprinting-Library) ：a Pytorch-based open-source library for website fingerprinting attacks, intended for research purposes only,which evaluates 11 advanced DL-based WF attacks on multiple datasets.
 
-
+---
 
 ## Datasets
 
