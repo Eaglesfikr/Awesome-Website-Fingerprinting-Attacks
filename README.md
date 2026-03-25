@@ -23,7 +23,7 @@ Please star or watch this repository to keep tracking the latest updates! Contri
 
 ## :boom::boom:News
 
-
+**Enhancements to Network Fingerprint Attacks Against Traffic Drift**. Published in the 2026 **NDSS** Conference Proceedings\**.
 
 
 
@@ -72,31 +72,24 @@ Website fingerprinting can be classified into robustness, multi-tab, Cross-domai
 
 ## Cross-domain few-shot
 
-- [TDSC 2025] Few-Shot Website Fingerprinting With Distribution Calibration [[paper]([Few-Shot Website Fingerprinting With Distribution Calibration | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/10552061/))] [[code]([GitHub - chenxiang3luo/DCWF](https://github.com/chenxiang3luo/DCWF))]
-
+- [NDSS2026] Enhancements to Network Fingerprint Attacks Against Traffic Drift[[paper](https://www.ndss-symposium.org/ndss-paper/enhancing-website-fingerprinting-attacks-against-traffic-drift/)] [[code](https://github.com/Xinhao-Deng/Adaptive-WF-Attack)]
+- [Trustcom2025] CoDA: Cross-Domain Few-Shot Website Fingerprinting via Contrastive Prototype Alignment[[paper](https://ieeexplore.ieee.org/document/11354866)]
+- [TDSC 2025] Few-Shot Website Fingerprinting With Distribution Calibration [[paper](https://ieeexplore.ieee.org/document/10552061/)] [[code]([GitHub - chenxiang3luo/DCWF](https://github.com/chenxiang3luo/DCWF))]
 - [TIFS 2025] WF-TFC: An Open-World Few-Shot Anonymous Website Fingerprinting via Time-Frequency Consistency [[paper](https://ieeexplore.ieee.org/document/11040006)] 
-
 - [PR 2025] WF-MDC: Enhancing Few-Shot Website Fingerprinting via Multiplicative Distribution Calibration [[paper](https://www.sciencedirect.com/science/article/pii/S0031320325014396?__cf_chl_rt_tk=.db0KS9zzqOe4eT.pdvXIca8d97vciFGh0DjJZ7xnRY-1767515241-1.0.1.1-cZWk4Y28vxD7D9pnRJ37j8bqsYJfhZENR5f8tFdXQYA)]
-
 - [CCS 2025] A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning [[paper](https://www.sigsac.org/ccs/CCS2025/accepted-papers/?utm_source=chatgpt.com)] [[code](https://mengshen-office.github.io/?utm_source=chatgpt.com)]
-
 - [CCS 2023] Realistic website  fingerprinting by augmenting network traces [[paper](https://arxiv.org/abs/2309.10147?utm_source=chatgpt.com)] [[code](https://github.com/SPIN-UMass/Realistic-Website-Fingerprinting-By-Augmenting-Network-Traces?utm_source=chatgpt.com)]
-
 - [CN 2023] Few-shot Website Fingerprinting Attack with Cluster Adaptation [[paper](https://www.sciencedirect.com/science/article/pii/S1389128623002256)] 
-
-- [PETS 2021] GANDaLF: GAN for Data-Limited Fingerprinting [[paper](https://cse.umn.edu/cs/feature-stories/gandalf-gan-data-limited-fingerprinting-journal#:~:text=We introduce Generative Adversarial Networks for Data-Limited Fingerprinting,to perform Website Fingerprinting (WF) on Tor traffic.)] [[code](https://github.com/traffic-analysis/gandalf)]
-
-- [CODASPY 2021] Adaptive Fingerprinting: Website Fingerprinting over Few Encrypted Traffic [[paper](https://dl.acm.org/doi/epdf/10.1145/3422337.3447835)] [[code]([GitHub - SmartHomePrivacyProject/AdaptiveFingerprinting](https://github.com/SmartHomePrivacyProject/AdaptiveFingerprinting))]
-  
-- [CCS 2019] Triplet fingerprinting: More practical and portable website fingerprinting with n shot learning [[paper]([Triplet Fingerprinting: More Practical and Portable Website Fingerprinting with N-shot Learning | Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security](https://dl.acm.org/doi/10.1145/3319535.3354217))] [[code](https://github.com/triplet-fingerprinting/tf?utm_source=chatgpt.com)]
-  
+- [PETS 2021] GANDaLF: GAN for Data-Limited Fingerprinting [[paper](https://doi.org/10.2478/popets-2021-0029)] [[code](https://github.com/traffic-analysis/gandalf)]
+- [CODASPY 2021] Adaptive Fingerprinting: Website Fingerprinting over Few Encrypted Traffic [[paper](https://dl.acm.org/doi/epdf/10.1145/3422337.3447835)] [[code](https://github.com/SmartHomePrivacyProject/AdaptiveFingerprinting)]
+- [CCS 2019] Triplet fingerprinting: More practical and portable website fingerprinting with n shot learning [[paper](https://dl.acm.org/doi/10.1145/3319535.3354217)] [[code](https://github.com/triplet-fingerprinting/tf?utm_source=chatgpt.com)]
 
 
 
 
 ## Early-stage
 
-- [S&P 2025] A Generalized Website Fingerprinting Attack via Coarse Grained Representation and Fine-Grained Prediction [[paper]([Countmamba: A Generalized Website Fingerprinting Attack via Coarse-Grained Representation and Fine-Grained Prediction | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/document/11023397))] [[code](https://github.com/SJTU-dxw/CountMamba-WF?utm_source=chatgpt.com)]
+- [S&P 2025] A Generalized Website Fingerprinting Attack via Coarse Grained Representation and Fine-Grained Prediction [[paper](https://ieeexplore.ieee.org/document/11023397)] [[code](https://github.com/SJTU-dxw/CountMamba-WF?utm_source=chatgpt.com)]
 
 - [CCS 2024] Robust and Reliable Early-Stage Website Fingerprinting Attacks [[paper](https://arxiv.org/abs/2407.00918?utm_source=chatgpt.com)] [[code](https://github.com/Xinhao-Deng/Website-Fingerprinting-Library?utm_source=chatgpt.com)]
 
@@ -107,16 +100,16 @@ Website fingerprinting can be classified into robustness, multi-tab, Cross-domai
 
 - [TOR](https://www.torproject.org.cn/en/): A browser isolates each website you visit so third-party trackers and ads can't follow you.
 - [Website-Fingerprinting-Library](https://github.com/Xinhao-Deng/Website-Fingerprinting-Library) ：a Pytorch-based open-source library for website fingerprinting attacks, intended for research purposes only,which evaluates 11 advanced DL-based WF attacks on multiple datasets.
-- 
 
 
 
 ## Datasets
 
-| dataset | Info |
-| ------- | ---- |
-| [AWF]() |      |
-| [DF]()  |      |
+| dataset                                                      | Info                                  |
+| ------------------------------------------------------------ | ------------------------------------- |
+| [AWF]()                                                      | **Packet Direction Sequence**         |
+| [DF]()                                                       | **Packet length, direction sequence** |
+| [Proteus](https://github.com/Xinhao-Deng/Adaptive-WF-Attack) | **Packet length, direction sequence** |
 
 
 
