@@ -10,18 +10,18 @@ Please star or watch this repository to keep tracking the latest updates! Contri
 
 ## **Outlines of this repo:**
 
-- [News](#News)
+- [News](#:boom::boom:NewsNews)
 - [What is the website fingerprinting attacks?](#What is the website fingerprinting attacks?)
 - [Classic](#Classic)
 - [Multi-tab](#Multi-tab)
 - [Cross-domain few-shot](Cross-domain few-shot)
 - [Early-stage](#Early-stage)
-- [Tools](Tools)
+- [Tools](#Tools)
 - [Datasets](#Datasets)
 
 
 
-# News
+## :boom::boom:News
 
 
 
