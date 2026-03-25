@@ -110,7 +110,7 @@ Website fingerprinting can be classified into classic robustness, multi-tab, Cro
 | dataset                                                      | Info                                  |
 | ------------------------------------------------------------ | ------------------------------------- |
 | [AWF]()                                                      | **Packet Direction Sequence**         |
-| [DF]()                                                       | **Packet length, direction sequence** |
+| [DF]()                                                       | **Timestamp sequence, Packet length, direction sequence** |
 | [Proteus](https://github.com/Xinhao-Deng/Adaptive-WF-Attack) | **Packet length, direction sequence** |
 
 
