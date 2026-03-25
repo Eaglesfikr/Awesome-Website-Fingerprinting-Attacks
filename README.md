@@ -15,7 +15,8 @@ Please star or watch this repository to keep tracking the latest updates! Contri
 - [Multi-tab](#Multi-tab)
 - [Cross-domain few-shot](Cross-domain few-shot)
 - [Early-stage](#Early-stage)
-- [Tools](#tools)
+- [Tools](Tools)
+- [Datasets](#Datasetss)
 - [Others](#others)
 - [Related repositories](#related-repositories)
 - [Star History](#star-history)
@@ -28,19 +29,23 @@ The scenario for website fingerprinting is generally within the TOR anonymous ne
 
 Website fingerprinting can be classified into robustness, multi-tab, Cross-domain few-shot and early-stage based on its research questions.
 
+
+
 ## Classic
 
 - [arxiv 2025] Redefining Website Fingerprinting Attacks with Multi-Agent LLMs [[paper](https://arxiv.org/abs/2509.12462)]
 
-- [USENIX 2023] Subverting Website Fingerprinting Defenses with Robust Traffic Representation [[paper](https://www.usenix.org/conference/usenixsecurity23/presentation/shen-meng)] [[code]([GitHub - robust-fingerprinting/RF: The code and dataset for "Subverting Website Fingerprinting Defenses with Robust Traffic Representation".](https://github.com/robust-fingerprinting/RF))]
+- [S&P 2025] A Generalized Website Fingerprinting Attack via Coarse Grained Representation and Fine-Grained Prediction [[paper](https://ieeexplore.ieee.org/document/11023397)] [[code](https://github.com/SJTU-dxw/CountMamba-WF?utm_source=chatgpt.com)]
 
-- [PETS 2020] Tik-Tok: The Utility of Packet Timing in Website Fingerprinting Attacks [[paper](https://arxiv.org/abs/1902.06421)] [[code]([GitHub - msrocean/Tik_Tok: This repository contains code and data for "Tik-Tok: The Utility of Packet Timing in Website Fingerprinting Attacks" paper, published in PETS 2020.](https://github.com/msrocean/Tik_Tok/))]
+- [USENIX 2023] Subverting Website Fingerprinting Defenses with Robust Traffic Representation [[paper](https://www.usenix.org/conference/usenixsecurity23/presentation/shen-meng)] [[code](https://github.com/robust-fingerprinting/RF)]
 
-- [PETS 2019] Var-CNN: A Data-Efficient Website Fingerprinting Attack Based on Deep Learning [[paper](https://axi.lims.ac.uk/paper/1802.10215))] [[code]([GitHub - sanjit-bhat/Var-CNN: Code for the paper "Var-CNN: A Data-Efficient Website Fingerprinting Attack Based on Deep Learning" (PETS 2019)](https://github.com/sanjit-bhat/Var-CNN))]
+- [PETS 2020] Tik-Tok: The Utility of Packet Timing in Website Fingerprinting Attacks [[paper](https://arxiv.org/abs/1902.06421)] [[code](https://github.com/msrocean/Tik_Tok/)]
 
-- [CCS 2018] Deep Fingerprinting Undermining Website Fingerprinting [[paper]](https://dl.acm.org/doi/10.1145/3243734.3243768) [[code]](https://github.com/deep-fingerprinting/df)
+- [PETS 2019] Var-CNN: A Data-Efficient Website Fingerprinting Attack Based on Deep Learning [[paper](https://axi.lims.ac.uk/paper/1802.10215))] [[code](https://github.com/sanjit-bhat/Var-CNN)]
 
-- [NDSS 2018] Automated Website Fingerprinting Through Deep Learning [[paper](https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_03A-1_Rimmer_paper.pdf)] [[code](https://github.com/DistriNet/DLWF))]
+- [CCS 2018] Deep Fingerprinting Undermining Website Fingerprinting [[paper]](https://dl.acm.org/doi/10.1145/3243734.3243768) [[code](https://github.com/deep-fingerprinting/df)]
+
+- [NDSS 2018] Automated Website Fingerprinting Through Deep Learning [[paper](https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_03A-1_Rimmer_paper.pdf)] [[code](https://github.com/DistriNet/DLWF)]
 
   
 
@@ -92,45 +97,23 @@ Website fingerprinting can be classified into robustness, multi-tab, Cross-domai
   
 
 
-
-
-
-
 ## Tools
 
-- [AIJack](https://github.com/Koukyosyumei/AIJack): Implementation of algorithms for AI security.
+- [TOR](https://www.torproject.org.cn/en/): A browser isolates each website you visit so third-party trackers and ads can't follow you.
+- [Website-Fingerprinting-Library](https://github.com/Xinhao-Deng/Website-Fingerprinting-Library) ：a Pytorch-based open-source library for website fingerprinting attacks, intended for research purposes only,which evaluates 11 advanced DL-based WF attacks on multiple datasets.
+- 
 
-- [Privacy-Attacks-in-Machine-Learning](https://github.com/shrebox/Privacy-Attacks-in-Machine-Learning): Membership Inference, Attribute Inference and Model Inversion attacks implemented using PyTorch.
 
-- [ml-attack-framework](https://github.com/Pilladian/ml-attack-framework): Universität des Saarlandes - Privacy Enhancing Technologies 2021 - Semester Project.
 
-- (Trail of Bits) PrivacyRaven [[GitHub]](https://github.com/trailofbits/PrivacyRaven)
+## Datasets
 
-- (TensorFlow) TensorFlow Privacy [[GitHub]](https://github.com/tensorflow/privacy/tree/master/tensorflow_privacy/privacy/membership_inference_attack)
-
-- (NUS Data Privacy and Trustworthy Machine Learning Lab) Machine Learning Privacy Meter [[GitHub]](https://github.com/privacytrustlab/ml_privacy_meter)
-
-- (IQT Labs/Lab 41) CypherCat (archive-only) [[GitHub]](https://github.com/Lab41/cyphercat)
-
-- (IBM) Adversarial Robustness Toolbox (ART) [[GitHub]](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
-
-## Attacks against synthetic data
-- [arXiv 2025] The DCR Delusion: Measuring the Privacy Risk of Synthetic Data. [[paper]](https://arxiv.org/pdf/2505.01524)
-- [arXiv 2023] A Linear Reconstruction Approach for Attribute Inference Attacks against Synthetic Data [[paper]](https://arxiv.org/pdf/2301.10053) [[code]](https://github.com/synthetic-society/recon-synth)
-- [USENIX 2022] Synthetic Data - Anonymisation of Groundhog Day [[paper]](https://www.usenix.org/system/files/sec22summer_stadler.pdf) [[code]](https://github.com/spring-epfl/synthetic_data_release)
-
-## Others
-
-- [Blog 2020] Uncovering a model's secrets [[blog1]](https://gab41.lab41.org/uncovering-a-models-secrets-model-inversion-part-i-ce460eab93d6) [[blog2]](https://gab41.lab41.org/robust-or-private-model-inversion-part-ii-94d54fd8d4a5)
-- [Blog 2020] Attacks against Machine Learning Privacy (Part 1): Model Inversion Attacks with the IBM-ART Framework [[blog]](https://franziska-boenisch.de/posts/2020/12/model-inversion/)
-- [Slides 2020] ML and DP [[slides]](https://www.cs.toronto.edu/~toni/Courses/Fairness/Lectures/ML-and-DP-v2.pdf)
-
-## Related repositories
-
-- awesome-ml-privacy-attacks [[repo]](https://github.com/stratosphereips/awesome-ml-privacy-attacks#reconstruction)
+| dataset | Info |
+| ------- | ---- |
+| [AWF]() |      |
 
 
 
 
 
-[[code]: 
+
+
