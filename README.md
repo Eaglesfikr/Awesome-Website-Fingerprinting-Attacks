@@ -10,16 +10,22 @@ Please star or watch this repository to keep tracking the latest updates! Contri
 
 ## **Outlines of this repo:**
 
+- [News](#News)
 - [What is the website fingerprinting attacks?](#What is the website fingerprinting attacks?)
 - [Classic](#Classic)
 - [Multi-tab](#Multi-tab)
 - [Cross-domain few-shot](Cross-domain few-shot)
 - [Early-stage](#Early-stage)
 - [Tools](Tools)
-- [Datasets](#Datasetss)
-- [Others](#others)
-- [Related repositories](#related-repositories)
-- [Star History](#star-history)
+- [Datasets](#Datasets)
+
+
+
+# News
+
+
+
+
 
 ## What is the website fingerprinting attacks?
 
@@ -110,6 +116,7 @@ Website fingerprinting can be classified into robustness, multi-tab, Cross-domai
 | dataset | Info |
 | ------- | ---- |
 | [AWF]() |      |
+| [DF]()  |      |
 
 
 
