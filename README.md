@@ -36,7 +36,7 @@ Website fingerprinting attack: a passive attack that identifies the websites a v
 
 The scenario for website fingerprinting is generally within the TOR anonymous network context. Under normal encrypted traffic, it is not of much concern; here, we specifically refer to the former.
 
-Website fingerprinting can be classified into robustness, multi-tab, Cross-domain few-shot and early-stage based on its research questions.
+Website fingerprinting can be classified into classic robustness, multi-tab, Cross-domain few-shot and early-stage based on its research questions.
 
 ---
 
