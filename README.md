@@ -1,8 +1,9 @@
-<h1 align="center"><b>Awesome-model-inversion-attack</b></h1>
+<h1 align="center"><b>Awesome-Website-fingerprinting-attack</b></h1>
 <p align="center">
     <a href="https://github.com/Eaglesfikr/Awesome-Website-Fingerprinting-Attacks/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-green" alt="PRs"></a>
     <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="awesome"></a>
 </p>
+
 
 A curated list of resources for website fingerprinting attacks（WF）.
 
