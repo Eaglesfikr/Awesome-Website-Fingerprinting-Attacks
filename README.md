@@ -9,6 +9,8 @@ A curated list of resources for website fingerprinting attacks（WF）.
 
 Please star or watch this repository to keep tracking the latest updates! Contributions are welcome!
 
+> 🔥 **自动更新**: 本项目支持通过 Claude Code Skill 自动搜索和更新文献。使用方法见 [ Skill 使用说明](#-skill-使用说明)。
+
 ---
 
 ## **Outlines of this repo:**
@@ -42,7 +44,31 @@ Website fingerprinting can be classified into classic robustness, multi-tab, Cro
 
 ## :label:Classic
 
-- [arxiv 2025] Redefining Website Fingerprinting Attacks with Multi-Agent LLMs [[paper](https://arxiv.org/abs/2509.12462)]
+- [arXiv 2026] Reality Check for Tor Website Fingerprinting in the Open World [[paper](https://arxiv.org/abs/2603.07412)]
+  > 从guard-relay视角重新评估开放世界WF攻击，收集了80万+ traces的大规模数据集，在跨网络设置下基准测试了SOTA攻击。
+
+- [arXiv 2026] More Than Meets the Eye: A Semantics-Aware Traffic Augmentation Framework for Generalizable Website Fingerprinting [[paper](https://arxiv.org/abs/2605.11402)]
+  > SATA：语义感知流量增强框架，解决应用层资源组合变异性和跨层封装导致的特征不稳定性，开放世界AUROC提升48.37%。
+
+- [arXiv 2026] PersonaFingerprint: Measuring Persona Inference on Modern Websites with LLM-Driven Browsing [[paper](https://arxiv.org/abs/2605.15962)]
+  > 利用LLM驱动的多智能体浏览框架，从加密流量中推断用户身份(persona)，在10个现代网站和15个persona上达到84%准确率。
+
+- [arXiv 2025] Beyond a Single Perspective: Towards a Realistic Evaluation of Website Fingerprinting Attacks [[paper](https://arxiv.org/abs/2510.14283)]
+  > 首次系统全面评估WF攻击在防御机制、流量漂移、多标签浏览、早期检测、开放世界和小样本等现实条件下的表现。
+
+- [arXiv 2025] A Comprehensive Survey of Website Fingerprinting Attacks and Defenses in Tor: Advances and Open Challenges [[paper](https://arxiv.org/abs/2510.11804)]
+  > 系统综述Tor中WF攻击与防御的最新进展，涵盖数据集、攻击模型和防御机制三个维度。
+
+- [arXiv 2025] Attack Smarter: Attention-Driven Fine-Grained Webpage Fingerprinting Attacks [[paper](https://arxiv.org/abs/2506.20082)]
+  > ADWPF：注意力驱动的细粒度网页指纹攻击，处理多标签浏览中的重叠流量段，通过注意力裁剪和掩码增强提升分类性能。
+
+- [arXiv 2025] Unlearning-Enhanced Website Fingerprinting Attack: Against Backdoor Poisoning in Anonymous Networks [[paper](https://arxiv.org/abs/2506.13563)]
+  > 集成机器遗忘(unlearning)技术的WF攻击，检测并移除后门投毒影响，在对抗设置中准确率稳定在80%左右。
+
+- [arXiv 2025] TSA-WF: Exploring the Effectiveness of Time Series Analysis for Website Fingerprinting [[paper](https://arxiv.org/abs/2505.14616)]
+  > 探索时间序列分析方法在网站指纹识别中的有效性，处理多标签WF中的时序定位问题。
+
+- [arXiv 2025] Redefining Website Fingerprinting Attacks with Multi-Agent LLMs [[paper](https://arxiv.org/abs/2509.12462)]
 
 - [S&P 2025] A Generalized Website Fingerprinting Attack via Coarse Grained Representation and Fine-Grained Prediction [[paper](https://ieeexplore.ieee.org/document/11023397)] [[code](https://github.com/SJTU-dxw/CountMamba-WF?utm_source=chatgpt.com)]
 
@@ -60,6 +86,12 @@ Website fingerprinting can be classified into classic robustness, multi-tab, Cro
 
 ## :label:Multi-tab
 
+- [arXiv 2026] DEMUX: Boundary-Aware Multi-Scale Traffic Demixing for Multi-Tab Website Fingerprinting [[paper](https://arxiv.org/abs/2604.15677)]
+  > 多标签WF解混框架，通过边界保持聚合、多尺度并行CNN和两阶段Transformer，在5标签闭世界设置中P@5达到0.943。
+
+- [arXiv 2026] PrismWF: A Multi-Granularity Patch-Based Transformer for Robust Website Fingerprinting Attack [[paper](https://arxiv.org/abs/2603.21117)]
+  > 多粒度patch-based Transformer，使用不同感受野卷积核提取多粒度特征，通过三级交互机制有效建模混合流量模式。
+
 - [CN 2025] Improved multi-tab website fingerprinting attacks with Transformer-based feature fusion [[paper](https://dl.acm.org/doi/10.1016/j.jnca.2025.104125?utm_source=chatgpt.com)]
 
 - [WWW 2025] Beyond Single Tabs: A Transformative Few-Shot Approach to Multi-Tab Website Fingerprinting Attacks [[paper](https://dl.acm.org/doi/10.1145/3696410.3714811)] [[code](https://github.com/WW-Meng/FMWF)]
@@ -73,6 +105,9 @@ Website fingerprinting can be classified into classic robustness, multi-tab, Cro
 ---
 
 ## :label:Cross-domain-few-shot
+
+- [arXiv 2025] STAR: Semantic-Traffic Alignment and Retrieval for Zero-Shot HTTPS Website Fingerprinting [[paper](https://arxiv.org/abs/2512.17667)]
+  > 零样本WF方法，将WF重新表述为跨模态检索问题，使用双编码器架构学习加密流量与爬取逻辑特征的联合嵌入空间，在1600个未见过网站上达到87.9% top-1准确率。
 
 - [NDSS2026] Enhancements to Network Fingerprint Attacks Against Traffic Drift[[paper](https://www.ndss-symposium.org/ndss-paper/enhancing-website-fingerprinting-attacks-against-traffic-drift/)] [[code](https://github.com/Xinhao-Deng/Adaptive-WF-Attack)]
 - [Trustcom2025] CoDA: Cross-Domain Few-Shot Website Fingerprinting via Contrastive Prototype Alignment[[paper](https://ieeexplore.ieee.org/document/11354866)]
@@ -90,6 +125,9 @@ Website fingerprinting can be classified into classic robustness, multi-tab, Cro
 
 
 ## :label:Early-stage
+
+- [arXiv 2026] Rethinking Side-Channel Analysis: Automated Discovery and Analysis of Side-Channel Leakage with LLM-Assisted Agents [[paper](https://arxiv.org/abs/2605.17406)]
+  > SCAgent：使用LLM辅助智能体自动发现和分析侧信道泄漏，采用小样本学习范式，评估包括网站指纹在内的标准基准。
 
 - [S&P 2025] A Generalized Website Fingerprinting Attack via Coarse Grained Representation and Fine-Grained Prediction [[paper](https://ieeexplore.ieee.org/document/11023397)] [[code](https://github.com/SJTU-dxw/CountMamba-WF?utm_source=chatgpt.com)]
 
@@ -113,9 +151,62 @@ Website fingerprinting can be classified into classic robustness, multi-tab, Cro
 | [DF]()                                                       | **Timestamp sequence, Packet length, direction sequence** |
 | [Proteus](https://github.com/Xinhao-Deng/Adaptive-WF-Attack) | **Packet length, direction sequence** |
 
+---
 
+## 🤖 Skill 使用说明
 
+本项目集成了 Claude Code Skill，可自动搜索最新文献并更新 README。
 
+### 安装 Skill
 
+将本项目克隆到 Claude Code 的 skills 目录：
+
+```bash
+git clone https://github.com/Eaglesfikr/Awesome-Website-Fingerprinting-Attacks ~/.claude/skills/awesome-wf-updater
+```
+
+### 使用方法
+
+在 Claude Code 中输入以下命令即可触发自动更新：
+
+```
+更新网站指纹识别文献
+```
+
+或：
+
+```
+搜索最新的 WF 论文并添加到 README
+```
+
+### 手动运行脚本
+
+也可以直接运行 Python 脚本：
+
+```bash
+# 预览模式（不写入文件）
+python scripts/update_readme.py --dry-run
+
+# 实际更新
+python scripts/update_readme.py
+
+# 自定义搜索关键词
+python scripts/update_readme.py --query "Tor fingerprinting defense"
+
+# 调整搜索数量
+python scripts/update_readme.py --limit 50
+```
+
+### 功能特性
+
+- ✅ 自动搜索 Semantic Scholar 和 arXiv
+- ✅ 智能分类（Classic / Multi-tab / Cross-domain-few-shot / Early-stage / Dataset）
+- ✅ 自动去重（基于 DOI / arXiv ID）
+- ✅ 按年份降序排列
+- ✅ 保留已有内容，仅追加新论文
+
+---
+
+*Last updated: 2026-06-11*
 
 
